@@ -1,0 +1,13 @@
+kagglehub
+spacy>=3.7
+scikit-learn
+pandas
+numpy
+matplotlib
+joblib
+fastapi
+uvicorn[standard]
+requests
+ipywidgets
+streamlit
+sentence-transformers
