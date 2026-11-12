@@ -168,3 +168,4 @@ class Recomendador:
         r.terminos = r.vec.get_feature_names_out()
         r.titulo_norm = r.df["titulo"].map(normalizar_titulo).values
         return r
+    

@@ -11,3 +11,4 @@ requests
 ipywidgets
 streamlit
 sentence-transformers
+

@@ -14,7 +14,7 @@ Proyecto del curso *NLP desde cero · Semana 1 · Proyecto 5: Recomendador de co
 | `app_streamlit.py` | Aplicación web Streamlit |
 | `requirements.txt` | Dependencias |
 
-`recomendador.py`, `api.py` y `app_streamlit.py` también los genera el notebook (`%%writefile`). Las copias de este repositorio son idénticas.
+`recomendador.py`, `api.py` y `app_streamlit.py` también los genera el notebook.
 
 ## Cómo ejecutarlo
 
@@ -60,6 +60,5 @@ La API y la app necesitan `artefactos.joblib`. Ese archivo lo crea el notebook (
 ## Limitaciones
 
 - TF-IDF compara palabras exactas (ya lematizadas): no entiende sinónimos ni contexto.
-- Es solo por contenido: no usa el historial ni el comportamiento de los lectores.
 - La métrica por géneros mide cercanía de género, no si al lector le gustaría el libro.
 - La lematización usa un solo modelo de spaCy (español), así que las sinopsis en inglés se lematizan peor.
